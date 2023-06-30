@@ -26,6 +26,7 @@ use ({"ziontee113/color-picker.nvim",
         require("color-picker")
     end,
 })
+use('lervag/vimtex')
 use('vim-airline/vim-airline')
 use('vim-airline/vim-airline-themes')
 
@@ -56,5 +57,7 @@ use {
     {'rafamadriz/friendly-snippets'},
   }
 }
+
+use('habamax/vim-godot')
 
 end)
